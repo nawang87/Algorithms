@@ -1,4 +1,4 @@
-def findeditdistance(word1,word2):
+def lcs(word1,word2):
     m = len(word1)
     n = len(word2)
     maxi = 0
@@ -28,4 +28,4 @@ def findeditdistance(word1,word2):
 
 word1 = 'tutorialhorizon'
 word2 = 'dynamictutorialProgramming'
-print(findeditdistance(word1,word2))
+print(lcs(word1,word2))
